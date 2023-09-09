@@ -50,9 +50,9 @@ const Detail = () => {
       </Header>
       <Contents>{data?.body}</Contents>
       <TagWrapper>
-        {/* {data.tagList.map((el) => (
+        {data?.tagList?.map((el) => (
           <Tag key={el}>{el}</Tag>
-        ))} */}
+        ))}
       </TagWrapper>
     </>
   );
