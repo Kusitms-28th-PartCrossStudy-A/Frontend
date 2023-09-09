@@ -4,7 +4,7 @@ import Create from '../pages/Create';
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<Create />}></Route>
+      <Route path="/create" element={<Create />}></Route>
     </Routes>
   );
 }
