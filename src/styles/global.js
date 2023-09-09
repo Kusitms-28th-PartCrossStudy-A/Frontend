@@ -44,18 +44,4 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
-/* @font-face {
-  font-family: NotoSansMedium;
-  src: url('../../src/style/fonts/NotoSansKR-Medium.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: NotoSansBold;
-  src: url('../../src/style/fonts/NotoSansKR-Bold.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-} */
 `;
