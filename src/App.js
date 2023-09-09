@@ -1,13 +1,13 @@
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import Home from './pages/Home';
-// import { GlobalStyle } from './global';
-// import Router from './router/router';
+import Detail from './pages/Detail';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />}></Route>
+      <Route path="/:articleId" element={<Detail />}></Route>
+      
     </Routes>
   );
 }

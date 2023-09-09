@@ -1,6 +1,4 @@
-import { createGlobalStyle } from "styled-components";
-import "./color.css";
-import "./font.css";
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 html, body, div, span, applet, object, iframe,
@@ -48,7 +46,7 @@ table {
 }
 
 
-@font-face {
+/* @font-face {
   font-family: NotoSansMedium;
   src: url('../../src/style/fonts/NotoSansKR-Medium.woff') format('woff');
   font-weight: normal;
@@ -59,5 +57,5 @@ table {
   src: url('../../src/style/fonts/NotoSansKR-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 `;
