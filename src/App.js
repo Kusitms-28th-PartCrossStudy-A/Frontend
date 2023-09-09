@@ -1,12 +1,14 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './pages/Home';
 // import { GlobalStyle } from './global';
 // import Router from './router/router';
 
 function App() {
   return (
-    <div>
-      <h1>hello wolrd!</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+    </Routes>
   );
 }
 
