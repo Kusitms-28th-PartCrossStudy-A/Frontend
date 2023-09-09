@@ -1,12 +1,16 @@
-import Router from './router/Router';
-import { GlobalStyle } from './styles/global';
+
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Detail from './pages/Detail';
 
 function App() {
   return (
-    <main>
-      <GlobalStyle />
-      <Router />
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/:articleId" element={<Detail />}></Route>
+      
+    </Routes>
+
   );
 }
 
